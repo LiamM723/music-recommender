@@ -2,6 +2,8 @@
 
 A content- and behavior-based music recommendation system that takes a song and returns a ranked list of similar tracks, combining crowd-sourced listening data with audio feature analysis.
 
+https://github.com/user-attachments/assets/6192feb9-55e1-4d80-b2b9-dacac2863d11
+
 ## How it works
 
 1. **Candidate generation** — [Last.fm's](https://www.last.fm/api) `track.getSimilar` endpoint surfaces tracks that real listeners have historically grouped with the input song, providing a behavioral signal that complements the audio-based similarity analysis.

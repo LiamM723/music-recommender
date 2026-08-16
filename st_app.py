@@ -26,7 +26,7 @@ results_df = pd.DataFrame()
 col1, col2, col3 = st.columns([1, 1, 1])
 
 with col2:
-    if st.button("Find similar songs", type="primary", use_container_width=True):
+    if st.button("Find similar songs", type="primary", width="stretch"):
         if not track_name or not artist_name:
             st.warning("Please enter both a song title and an artist name.")
         else:
